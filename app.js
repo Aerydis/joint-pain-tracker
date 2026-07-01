@@ -1,15 +1,5 @@
 // Primary State (Preloaded with matching history patterns)
 let logs = [
-  {
-    id: "1",
-    date: "2026-06-28",
-    timeOfDay: "Night",
-    joint: "Left Knee",
-    painLevel: 6,
-    duration: "3-8",
-    tookPainkiller: true,
-    notes: "test lol"
-  }
 ];
 
 window.onload = function() {
