@@ -1,0 +1,152 @@
+body {
+  font-family: monospace;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+header, footer, section, .box, main, aside {
+  margin-bottom: 15px;
+}
+
+h1, h2, h3, h4 {
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+.layout {
+  display: block;
+}
+
+.form-group {
+  margin-bottom: 12px;
+}
+
+.medication-box {
+  border: 1px solid #000000;
+  padding: 8px;
+  background-color: #fafafa;
+}
+
+.no-logs {
+  text-align: center;
+  padding: 20px;
+  display: none;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+input[type="date"], select, textarea {
+  font-family: inherit;
+  padding: 4px;
+}
+
+textarea {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+}
+
+th, td {
+  border: 1px solid #000000;
+  padding: 6px;
+  text-align: left;
+  font-size: 13px;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+.stats-table td {
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* columns */
+.col-datetime {
+  width: 15%;
+}
+
+.col-area {
+  width: 25%;
+}
+
+.col-pain {
+  width: 15%;
+}
+
+.col-meds {
+  width: 15%;
+}
+
+.col-delete {
+  width: 8%;
+  text-align: center;
+}
+
+.logs-table td:last-child {
+  text-align: center;
+}
+
+/* flex headers */
+.log-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* buttons */
+button {
+  font-family: inherit;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.submit-btn {
+  font-weight: bold;
+  padding: 6px 12px;
+}
+
+.clear-btn {
+  color: red;
+  border: none;
+  background: none;
+}
+
+/* status bar */
+#statusBar {
+  font-size: 11px;
+  color: #555555;
+  border: 1px dashed #000000;
+  padding: 5px;
+}
+
+#customConfirmModal {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  justify-content: center;
+  align-items: center;
+}
+
+.confirm-box {
+  background: #ffffff;
+  border: 2px solid #000000;
+  padding: 20px;
+  text-align: center;
+}
